@@ -1,7 +1,7 @@
 [
   {
     "kernelSource": {
-      "name": "Redmi Note 11 Pro",
+      "name": "RedmiNote11Pro",
       "repo": "https://github.com/MiCode/Xiaomi_Kernel_OpenSource",
       "branch": "pissarro-s-oss",
       "device": "pissarro",
