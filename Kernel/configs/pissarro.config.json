@@ -3,9 +3,9 @@
     "kernelSource": {
       "name": "RedmiNote11Pro",
       "repo": "https://github.com/404yulei/Xiaomi_Kernel_OpenSource",
-      "branch": "pissarro-s-oss",
-      "device": "pissarro",
-      "defconfig": "tiqu_config"
+      "branch": "mido-n-oss",
+      "device": "mido",
+      "defconfig": "mido_defconfig"
     },
     "enableCcache": true,
     "toolchains": [
@@ -39,7 +39,7 @@
       "release": true,
       "custom": {
         "repo": "https://github.com/easterNday/AnyKernel3/",
-        "branch": "pissarro"
+        "branch": "mido"
       }
     },
     "enableKernelSU": false,
