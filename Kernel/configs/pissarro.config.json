@@ -2,10 +2,10 @@
   {
     "kernelSource": {
       "name": "RedmiNote11Pro",
-      "repo": "https://github.com/MiCode/Xiaomi_Kernel_OpenSource",
+      "repo": "https://github.com/404yulei/Xiaomi_Kernel_OpenSource",
       "branch": "pissarro-s-oss",
       "device": "pissarro",
-      "defconfig": "pissarro_user_defconfig"
+      "defconfig": "tiqu_config"
     },
     "enableCcache": true,
     "toolchains": [
