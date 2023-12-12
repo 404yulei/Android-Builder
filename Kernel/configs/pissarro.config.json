@@ -1,7 +1,7 @@
 [
   {
     "kernelSource": {
-      "name": "RedmiNote11Pro(1)",
+      "name": "1RedmiNote11Pro1",
       "repo": "https://github.com/404yulei/Xiaomi_Kernel_OpenSource",
       "branch": "pissarro-s-oss",
       "device": "pissarro",
@@ -46,7 +46,7 @@
   },
   {
     "kernelSource": {
-      "name": "RedmiNote11Pro(2)",
+      "name": "2RedmiNote11Pro",
       "repo": "https://github.com/404yulei/Xiaomi_Kernel_OpenSource",
       "branch": "pissarro-s-oss",
       "device": "pissarro",
@@ -92,7 +92,7 @@
   },
   {
     "kernelSource": {
-      "name": "RedmiNote11Pro(3)",
+      "name": "3RedmiNote11Pro",
       "repo": "https://github.com/404yulei/Xiaomi_Kernel_OpenSource",
       "branch": "pissarro-s-oss",
       "device": "pissarro",
