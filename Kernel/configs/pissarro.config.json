@@ -10,7 +10,7 @@
     "enableCcache": true,
     "toolchains": [
       {
-        "repo": "https://github.com/kdrag0n/proton-clang",
+        "repo": "git clone https://android.googlesource.com/toolchain/llvm-project",
         "branch": "master",
         "name": "proton-clang",
         "binaryEnv": [
