@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "RedmiNote11Pro",
+      "name": "RedmiNote11Pro(1)",
       "repo": "https://github.com/404yulei/Xiaomi_Kernel_OpenSource",
       "branch": "pissarro-s-oss",
       "device": "pissarro",
-      "defconfig": "pissarro_user_defconfig"
+      "defconfig": "tiqu_defconfig"
     },
     "enableCcache": true,
     "toolchains": [
@@ -46,11 +46,11 @@
   },
   {
     "kernelSource": {
-      "name": "RedmiNote11Pro",
+      "name": "RedmiNote11Pro(2)",
       "repo": "https://github.com/404yulei/Xiaomi_Kernel_OpenSource",
       "branch": "pissarro-s-oss",
       "device": "pissarro",
-      "defconfig": "pissarro_user_defconfig"
+      "defconfig": "tiqu_defconfig"
     },
     "toolchains": [
       {
@@ -92,11 +92,11 @@
   },
   {
     "kernelSource": {
-      "name": "RedmiNote11Pro",
+      "name": "RedmiNote11Pro(3)",
       "repo": "https://github.com/404yulei/Xiaomi_Kernel_OpenSource",
       "branch": "pissarro-s-oss",
       "device": "pissarro",
-      "defconfig": "pissarro_user_defconfig"
+      "defconfig": "tiqu_defconfig"
     },
     "enableCcache": true,
     "toolchains": [
