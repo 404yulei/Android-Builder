@@ -90,6 +90,30 @@
     "enableKernelSU": false,
     "enableLXC": false
   },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
   {
     "kernelSource": {
       "name": "3RedmiNote11Pro",
@@ -109,16 +133,16 @@
         ]
       },
       {
-        "repo": "https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9",
-        "branch": "lineage-19.1",
+        "repo": "https://gitlab.com/firefly-linux/prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu",
+        "branch": "firefly",
         "name": "aarch64",
         "binaryEnv": [
           "bin"
         ]
       },
       {
-        "repo": "https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9",
-        "branch": "lineage-19.1",
+        "repo": "https://gitlab.com/firefly-linux/prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf.git",
+        "branch": "firefly",
         "name": "arm",
         "binaryEnv": [
           "bin"
