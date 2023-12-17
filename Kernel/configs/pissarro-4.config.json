@@ -2,8 +2,8 @@
   {
     "kernelSource": {
       "name": "3RedmiNote11Pro",
-      "repo": "https://github.com/404yulei/Xiaomi_Kernel_OpenSource",
-      "branch": "pissarro-s-oss",
+      "repo": "https://github.com/404yulei/kernel_xiaomi_pissarro",
+      "branch": "main",
       "device": "pissarro",
       "defconfig": "tiqu_defconfig"
     },
