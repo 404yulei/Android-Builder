@@ -10,36 +10,18 @@
     "enableCcache": true,
     "toolchains": [
       {
-        "repo": "https://github.com/crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-6443078",
-        "branch": "10.0",
+        "repo": "https://gitlab.com/LeCmnGend/proton-clang",
+        "branch": "clang-13",
         "name": "clang",
         "binaryEnv": [
           "bin"
         ]
-      },
-      {
-        "repo": "https://gitlab.com/firefly-linux/prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu",
-        "branch": "firefly",
-        "name": "aarch64",
-        "binaryEnv": [
-          "bin"
-        ]
-      },
-      {
-        "repo": "https://gitlab.com/firefly-linux/prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf.git",
-        "branch": "firefly",
-        "name": "arm",
-        "binaryEnv": [
-          "bin"
-        ]
-      }
-    ],
     "params": {
       "ARCH": "arm64",
       "CC": "clang/bin/clang",
       "externalCommands": {
-        "CROSS_COMPILE": "aarch64-linux-gnu-",
-        "CROSS_COMPILE_ARM32": "arm-linux-gnueabi-",
+        "CROSS_COMPILE": "/clang/bin/aarch64-linux-gnu-",
+        "CROSS_COMPILE_ARM32": "/clang/bin/arm-linux-gnueabi-",
         
         "CLANG_TRIPLE": "aarch64-linux-gnu-",
         "LD": "ld.lld",
