@@ -3,9 +3,9 @@
     "kernelSource": {
       "name": "3RedmiNote11Pro",
       "repo": "https://github.com/404yulei/Xiaomi_Kernel_OpenSource",
-      "branch": "pissarro-s-oss",
-      "device": "pissarro",
-      "defconfig": "pissarro_user_defconfig"
+      "branch": "alioth-r-oss",
+      "device": "alioth",
+      "defconfig": "thyme_user_defconfig"
     },
     "enableCcache": true,
     "toolchains": [
