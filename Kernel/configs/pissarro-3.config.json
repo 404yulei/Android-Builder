@@ -41,18 +41,18 @@
         "CROSS_COMPILE": "aarch64-linux-gnu-",
         "CROSS_COMPILE_ARM32": "arm-linux-gnueabi-",
         "CROSS_COMPILE_COMPAT": "arm-linux-gnueabi-",
-        "CLANG_TRIPLE": "aarch64-linux-gnu-",
+        //"CLANG_TRIPLE": "aarch64-linux-gnu-",
         "LD": "ld.lld",
         "AR": "llvm-ar",
         "NM": "llvm-nm",
         "OBJCOPY": "llvm-objcopy",
         "OBJDUMP": "llvm-objdump",
-        "READELF": "llvm-readelf",
-        "OBJSIZE": "llvm-size",
+        //"READELF": "llvm-readelf",
+        //"OBJSIZE": "llvm-size",
         "STRIP": "llvm-strip",
         "LDGOLD": "aarch64-linux-gnu-ld.gold",
-        "LLVM_AR": "llvm-ar",
-        "LLVM_DIS": "llvm-dis"
+        //"LLVM_AR": "llvm-ar",
+        //"LLVM_DIS": "llvm-dis"
       }
     },
     "AnyKernel3": {
