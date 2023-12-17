@@ -1,0 +1,65 @@
+[ 
+  {
+    "kernelSource": {
+      "name": "3RedmiNote11Pro",
+      "repo": "https://github.com/404yulei/Xiaomi_Kernel_OpenSource",
+      "branch": "pissarro-s-oss",
+      "device": "pissarro",
+      "defconfig": "tiqu_defconfig"
+    },
+    "enableCcache": false,
+    "toolchains": [
+      {
+        "repo": "https://github.com/crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-6443078",
+        "branch": "10.0",
+        "name": "clang",
+        "binaryEnv": [
+          "bin"
+        ]
+      },
+      {
+        "repo": "https://gitlab.com/firefly-linux/prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu",
+        "branch": "firefly",
+        "name": "aarch64",
+        "binaryEnv": [
+          "bin"
+        ]
+      },
+      {
+        "repo": "https://gitlab.com/firefly-linux/prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf.git",
+        "branch": "firefly",
+        "name": "arm",
+        "binaryEnv": [
+          "bin"
+        ]
+      }
+    ],
+    "params": {
+      "ARCH": "arm64",
+      "CC": "clang/bin/clang",
+      "externalCommands": {
+        "CROSS_COMPILE": "aarch64-linux-gnu-",
+        "CROSS_COMPILE_ARM32": "arm-linux-gnueabi-",
+        "CROSS_COMPILE_COMPAT": "arm-linux-gnueabi-",
+        
+        "LD": "ld.lld",
+        "AR": "llvm-ar",
+        "NM": "llvm-nm",
+        "OBJCOPY": "llvm-objcopy",
+        "OBJDUMP": "llvm-objdump",
+        
+        
+        "STRIP": "llvm-strip",
+        "LDGOLD": "aarch64-linux-gnu-ld.gold"
+        
+        
+      }
+    },
+    "AnyKernel3": {
+      "use": true,
+      "release": true
+    },
+    "enableKernelSU": false,
+    "enableLXC": false
+  }
+]
