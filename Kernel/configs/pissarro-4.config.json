@@ -5,7 +5,7 @@
       "repo": "https://github.com/404yulei/kernel_xiaomi_pissarro",
       "branch": "main",
       "device": "pissarro",
-      "defconfig": "tiqu_defconfig"
+      "defconfig": "pissarro_user_defconfig"
     },
     "enableCcache": true,
     "toolchains": [
