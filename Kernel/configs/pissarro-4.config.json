@@ -16,6 +16,8 @@
         "binaryEnv": [
           "bin"
         ]
+      }
+    ],
     "params": {
       "ARCH": "arm64",
       "CC": "clang/bin/clang",
