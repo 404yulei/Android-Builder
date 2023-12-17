@@ -47,12 +47,12 @@
         "NM": "llvm-nm",
         "OBJCOPY": "llvm-objcopy",
         "OBJDUMP": "llvm-objdump",
-        //"READELF": "llvm-readelf",
-        //"OBJSIZE": "llvm-size",
+        "READELF": "llvm-readelf",
+        "OBJSIZE": "llvm-size",
         "STRIP": "llvm-strip",
         "LDGOLD": "aarch64-linux-gnu-ld.gold",
-        //"LLVM_AR": "llvm-ar",
-        //"LLVM_DIS": "llvm-dis"
+        "LLVM_AR": "llvm-ar",
+        "LLVM_DIS": "llvm-dis"
       }
     },
     "AnyKernel3": {
