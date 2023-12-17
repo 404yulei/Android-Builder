@@ -7,7 +7,7 @@
       "device": "pissarro",
       "defconfig": "tiqu_defconfig"
     },
-    "enableCcache": false,
+    "enableCcache": true,
     "toolchains": [
       {
         "repo": "https://github.com/crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-6443078",
