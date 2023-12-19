@@ -35,6 +35,7 @@
       }
     ],
     "params": {
+      "VERBOSE"="1",
       "ARCH": "arm64",
       "CC": "clang/bin/clang",
       "externalCommands": {
