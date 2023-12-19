@@ -3,7 +3,7 @@ name: Build kernels-2
 on:
   push:
     paths:
-      - ".github/workflows/kernel-2.yml"
+      - ".github/workflows/kernel.yml"
   workflow_dispatch:
   schedule:
     - cron: "14 13 * * 5"
@@ -76,12 +76,7 @@ jobs:
     steps:
       - name: Maximize build space?????????
         uses: easimon/maximize-build-space@master
-        with:
-          root-reserve-mb: 512
-          swap-size-mb: 1024
-          remove-dotnet: 'true'
-      - name: Checkout????????
-        uses: actions/checkout@v3
+        
 
       - name: Build
         run: |
@@ -89,7 +84,11 @@ jobs:
           df -h
 
 
-      
+      # Set swap space
+      - name: 📐 Set swap to 10G
+        uses: pierotofy/set-swap-space@master
+        with:
+          swap-size-gb: 10
       
 
       # This action checks-out your CONFIGSitory under $GITHUB_WORKSPACE, so your workflow can access it.
