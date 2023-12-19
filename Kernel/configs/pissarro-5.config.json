@@ -36,7 +36,7 @@
     ],
     "params": {
       "ARCH": "arm64",
-      "CC": "clang/clang-r383902/bin/clang",
+      "CC": "clang/bin/clang",
       "externalCommands": {
         "CROSS_COMPILE": "aarch64-linux-gnu-",
         "CROSS_COMPILE_ARM32": "arm-linux-gnueabi-",
