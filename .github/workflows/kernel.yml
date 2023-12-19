@@ -167,6 +167,8 @@ jobs:
                 *.rar)
                   unrar x "$filename" $toolchain_name
                   ;;
+                *.tar.xz)
+                  tar xf "$filename" -C $toolchain_name
                 *)
                   echo "unknown file type: $filename"
                   ;;
