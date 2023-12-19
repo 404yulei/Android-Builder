@@ -90,11 +90,7 @@ jobs:
 
 
       
-      # Set swap space
-      - name: 📐 Set swap to 10G
-        uses: pierotofy/set-swap-space@master
-        with:
-          swap-size-gb: 10
+      
 
       # This action checks-out your CONFIGSitory under $GITHUB_WORKSPACE, so your workflow can access it.
       - name: 😄 Checkout
