@@ -11,7 +11,7 @@
     "toolchains": [
       {
         "name":"clang",
-        "url":"https://github.com/llvm/llvm-project/releases/download/llvmorg-11.0.1/clang+llvm-11.0.1-x86_64-linux-gnu-ubuntu-20.10.tar.xz"
+        "url":"https://github.com/llvm/llvm-project/releases/download/llvmorg-11.0.1/clang+llvm-11.0.1-x86_64-linux-gnu-ubuntu-20.10.tar.xz",
         "binaryEnv":[
           "bin"
         ]
