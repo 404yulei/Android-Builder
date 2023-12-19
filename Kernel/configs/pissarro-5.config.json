@@ -13,7 +13,7 @@
         "name":"clang",
         "url":"https://github.com/llvm/llvm-project/releases/download/llvmorg-11.0.1/clang+llvm-11.0.1-x86_64-linux-gnu-ubuntu-20.10.tar.xz",
         "binaryEnv":[
-          "bin"
+          "clang+llvm-11.0.1-x86_64-linux-gnu-ubuntu-20.10/bin"
         ]
       },
       {
@@ -35,7 +35,7 @@
     ],
     "params": {
       "ARCH": "arm64",
-      "CC": "clang/bin/clang",
+      "CC": "clang/clang+llvm-11.0.1-x86_64-linux-gnu-ubuntu-20.10/bin/clang",
       "externalCommands": {
         "CROSS_COMPILE": "aarch64-linux-gnu-",
         "CROSS_COMPILE_ARM32": "arm-linux-gnueabi-",
