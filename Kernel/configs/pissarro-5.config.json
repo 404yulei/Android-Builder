@@ -11,9 +11,9 @@
     "toolchains": [
       {
         "name":"clang",
-        "url":"https://github.com/llvm/llvm-project/releases/download/llvmorg-11.0.1/clang+llvm-11.0.1-x86_64-linux-gnu-ubuntu-20.10.tar.xz",
+        "url":"https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/f71cc7fa68ac644595257d6fdebc2e543cb7041c.tar.gz",
         "binaryEnv":[
-          "clang+llvm-11.0.1-x86_64-linux-gnu-ubuntu-20.10/bin"
+          "clang-r383902/bin"
         ]
       },
       {
@@ -35,7 +35,7 @@
     ],
     "params": {
       "ARCH": "arm64",
-      "CC": "clang/clang+llvm-11.0.1-x86_64-linux-gnu-ubuntu-20.10/bin/clang",
+      "CC": "clang/clang-r383902/bin/clang",
       "externalCommands": {
         "CROSS_COMPILE": "aarch64-linux-gnu-",
         "CROSS_COMPILE_ARM32": "arm-linux-gnueabi-",
