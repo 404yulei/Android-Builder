@@ -7,13 +7,14 @@
       "device": "pissarro",
       "defconfig": "tiqu_defconfig"
     },
-    "enableCcache": false,
+    "enableCcache": true,
     "toolchains": [
       {
-        "name":"clang",
-        "url":"https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/f71cc7fa68ac644595257d6fdebc2e543cb7041c.tar.gz",
-        "binaryEnv":[
-          "clang-r383902/bin"
+        "repo": "https://github.com/crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-6443078",
+        "branch": "10.0",
+        "name": "clang",
+        "binaryEnv": [
+          "bin"
         ]
       },
       {
