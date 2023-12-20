@@ -308,6 +308,14 @@ jobs:
           make ${{ env.ARGS }} VERBOSE=1
           # tree ${{ env.OUT_DIR }}
 
+
+
+      - uses: actions/checkout@v3
+      - name: Setup tmate session
+        uses: mxschmitt/action-tmate@v3
+
+
+      
       - name: 💛 Upload Image
         uses: actions/upload-artifact@v3
         env:
