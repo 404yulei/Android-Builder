@@ -36,12 +36,13 @@
     ],
     "params": {
       "ARCH": "arm64",
-      "CC": "clang/bin/clang",
+      "CC": "gcc",
       "externalCommands": {
         "CROSS_COMPILE": "aarch64-linux-gnu-",
         "CROSS_COMPILE_ARM32": "arm-linux-gnueabi-",
         "CROSS_COMPILE_COMPAT": "arm-linux-gnueabi-",
         "CLANG_TRIPLE": "aarch64-linux-gnu-",
+        "LINUX_GCC_CROSS_COMPILE_PREBUILTS_BIN"="bin",
         "LD": "ld.lld",
         "AR": "llvm-ar",
         "NM": "llvm-nm",
